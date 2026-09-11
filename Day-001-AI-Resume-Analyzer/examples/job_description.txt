@@ -1,0 +1,16 @@
+Backend Software Engineer
+
+We are looking for a backend engineer to build reliable API services.
+
+Requirements:
+- Strong Python programming skills
+- Experience designing REST APIs
+- SQL and relational database knowledge
+- Unit testing and Git
+- Docker experience
+- Familiarity with Kubernetes
+- Clear written and verbal communication
+
+Nice to have:
+- Cloud deployment experience
+- CI/CD experience
