@@ -1,0 +1,18 @@
+Jordan Lee
+Software Developer
+
+SUMMARY
+Software developer with 2 years of experience building Python web services and SQL-backed applications.
+
+SKILLS
+Python, Flask, SQL, REST APIs, Git, Docker, HTML, CSS
+
+EXPERIENCE
+Software Developer — Example Labs
+- Built REST APIs in Python and Flask.
+- Improved a reporting query from 9 seconds to 3 seconds.
+- Added unit tests and CI checks for backend services.
+- Containerized local development with Docker.
+
+EDUCATION
+B.S. in Computer Science
