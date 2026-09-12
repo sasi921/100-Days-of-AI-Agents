@@ -21,8 +21,9 @@ If this series helps you learn, **star the repository** and follow along.
 | Day | Project | Difficulty | Core concepts |
 |---:|---|---|---|
 | 001 | [AI Resume Analyzer](Day-001-AI-Resume-Analyzer/) | 🟢 Beginner | LLM API, prompt design, JSON parsing, CLI apps |
+| 002 | [AI Weather Briefing Agent](Day-002-AI-Weather-Briefing-Agent/) | 🟢 Beginner+ | External APIs, tool data, normalization, graceful fallback |
 
-**Progress: 1 / 100**
+**Progress: 2 / 100**
 
 ## Learning roadmap
 
@@ -58,6 +59,15 @@ Evaluation, observability, guardrails, Docker, deployment, reliability, scaling.
 │   ├── app.py
 │   ├── analyzer.py
 │   ├── prompts.py
+│   ├── requirements.txt
+│   ├── .env.example
+│   ├── examples/
+│   └── tests/
+├── Day-002-AI-Weather-Briefing-Agent/
+│   ├── README.md
+│   ├── app.py
+│   ├── agent.py
+│   ├── weather_api.py
 │   ├── requirements.txt
 │   ├── .env.example
 │   ├── examples/
