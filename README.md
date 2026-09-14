@@ -23,8 +23,9 @@ If this series helps you learn, **star the repository** and follow along.
 | 001 | [AI Resume Analyzer](Day-001-AI-Resume-Analyzer/) | 🟢 Beginner | LLM API, prompt design, JSON parsing, CLI apps |
 | 002 | [AI Weather Briefing Agent](Day-002-AI-Weather-Briefing-Agent/) | 🟢 Beginner+ | External APIs, tool data, normalization, graceful fallback |
 | 003 | [AI Web Research Agent](Day-003-AI-Web-Research-Agent/) | 🟢 Beginner+ | Web tools, HTML extraction, grounding, source-aware Q&A |
+| 004 | [AI Meeting Action Item Extractor](Day-004-AI-Meeting-Action-Item-Extractor/) | 🟢 Beginner+ | Structured outputs, Pydantic schemas, validation, graceful fallback |
 
-**Progress: 3 / 100**
+**Progress: 4 / 100**
 
 ## Learning roadmap
 
@@ -58,11 +59,12 @@ Evaluation, observability, guardrails, Docker, deployment, reliability, scaling.
 ├── Day-001-AI-Resume-Analyzer/
 ├── Day-002-AI-Weather-Briefing-Agent/
 ├── Day-003-AI-Web-Research-Agent/
+├── Day-004-AI-Meeting-Action-Item-Extractor/
 │   ├── README.md
 │   ├── SOCIAL_POST.md
 │   ├── app.py
 │   ├── agent.py
-│   ├── web_tool.py
+│   ├── models.py
 │   ├── requirements.txt
 │   ├── .env.example
 │   ├── examples/
