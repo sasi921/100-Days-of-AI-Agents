@@ -5,13 +5,12 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-5%2F100-1f6feb?style=for-the-badge" alt="Progress 5/100" />
+  <img src="https://img.shields.io/badge/Progress-6%2F100-1f6feb?style=for-the-badge" alt="Progress 6/100" />
   <img src="https://img.shields.io/badge/Python-AI%20Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python AI Engineering" />
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributions-Welcome-2ea44f?style=for-the-badge" alt="Contributions welcome" /></a>
 </p>
 
 <h3 align="center">Learn AI engineering by building — one useful project every day.</h3>
-
 <p align="center"><b>Prompting → APIs → Tools → RAG → Memory → Planning → MCP → Multi-Agent Systems → Evaluation → Production</b></p>
 <p align="center">⭐ <b>If this learning path is useful, star the repository so you can follow all 100 builds.</b></p>
 
@@ -23,19 +22,15 @@
 
 > The fastest way to understand modern AI engineering is to build real systems, not only watch tutorials.
 
-The series starts with beginner-friendly LLM applications and grows toward production-grade agent systems.
-
 ## 🔥 Latest build
 
-### Day 005 — AI Email Reply Assistant
+### Day 006 — AI Support Ticket Triage Bot
 
-A practical email drafting assistant that teaches **system prompts, instruction hierarchy, prompt boundaries, tone control, and safe fallbacks**.
+A practical support-operations bot teaching **classification, routing, strict structured outputs, escalation, and deterministic fallbacks**.
 
-**Incoming email → Trusted system rules → Goal + tone → LLM → Draft reply**
+**Ticket → Trusted triage policy → Structured classification → Queue / human-review recommendation**
 
-The received email is explicitly treated as **untrusted data**, helping learners understand why external content should not be allowed to override application instructions.
-
-➡️ **[Explore Day 005](Day-005-AI-Email-Reply-Assistant/)**
+➡️ **[Explore Day 006](Day-006-AI-Support-Ticket-Triage-Bot/)**
 
 ---
 
@@ -48,7 +43,7 @@ cd Day-001-AI-Resume-Analyzer
 python -m venv .venv
 ```
 
-Activate the environment and follow that day's `README.md` for dependencies and run commands. New to AI agents? Start at Day 001 and move in order — later projects reuse earlier concepts.
+Activate the environment and follow that day's `README.md`. New to AI agents? Start at Day 001 and move in order.
 
 ---
 
@@ -61,12 +56,13 @@ Activate the environment and follow that day's `README.md` for dependencies and 
 | 003 | **[AI Web Research Agent](Day-003-AI-Web-Research-Agent/)** | 🟢 Beginner+ | Web tools, HTML extraction, grounding, source-aware Q&A |
 | 004 | **[AI Meeting Action Item Extractor](Day-004-AI-Meeting-Action-Item-Extractor/)** | 🟢 Beginner+ | Structured outputs, Pydantic schemas, validation, graceful fallback |
 | 005 | **[AI Email Reply Assistant](Day-005-AI-Email-Reply-Assistant/)** | 🟢 Beginner+ | System prompts, instruction hierarchy, prompt boundaries, tone control |
+| 006 | **[AI Support Ticket Triage Bot](Day-006-AI-Support-Ticket-Triage-Bot/)** | 🟢 Beginner+ | Classification, routing, JSON Schema, escalation, deterministic fallbacks |
 
 ### Current progress
 
-**5 / 100 projects complete** — Foundations phase in progress.
+**6 / 100 projects complete** — Foundations phase in progress.
 
-`█████░░░░░░░░░░░░░░░` **5%**
+`██████░░░░░░░░░░░░░░` **6%**
 
 ---
 
@@ -125,8 +121,3 @@ Students, software engineers moving into AI, data/ML engineers learning agentic 
 If you find something useful here: ⭐ **Star** the repository, 🍴 **Fork** and experiment, 💡 **suggest a future build**, 🔁 **share a project**, or 🤝 **contribute an improvement**.
 
 <p align="center"><b>100 projects. One progressive path. Learn AI agents by building them.</b></p>
-<p align="center">
-  ⭐ <a href="https://github.com/sasi921/100-Days-of-AI-Agents">Star the repo</a> •
-  🍴 <a href="https://github.com/sasi921/100-Days-of-AI-Agents/fork">Fork</a> •
-  💡 <a href="https://github.com/sasi921/100-Days-of-AI-Agents/issues">Suggest an idea</a>
-</p>
