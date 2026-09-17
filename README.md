@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-6%2F100-1f6feb?style=for-the-badge" alt="Progress 6/100" />
+  <img src="https://img.shields.io/badge/Progress-7%2F100-1f6feb?style=for-the-badge" alt="Progress 7/100" />
   <img src="https://img.shields.io/badge/Python-AI%20Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python AI Engineering" />
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributions-Welcome-2ea44f?style=for-the-badge" alt="Contributions welcome" /></a>
 </p>
@@ -24,13 +24,13 @@
 
 ## 🔥 Latest build
 
-### Day 006 — AI Support Ticket Triage Bot
+### Day 007 — AI Prompt Guardrail & Safety Gateway
 
-A practical support-operations bot teaching **classification, routing, strict structured outputs, escalation, and deterministic fallbacks**.
+A practical safety boundary teaching **guardrails, prompt-injection defenses, PII review, deterministic policy checks, optional moderation, and human escalation**.
 
-**Ticket → Trusted triage policy → Structured classification → Queue / human-review recommendation**
+**Untrusted input → Policy checks → Optional moderation → allow / review / block**
 
-➡️ **[Explore Day 006](Day-006-AI-Support-Ticket-Triage-Bot/)**
+➡️ **[Explore Day 007](Day-007-AI-Prompt-Guardrail-Safety-Gateway/)**
 
 ---
 
@@ -57,19 +57,20 @@ Activate the environment and follow that day's `README.md`. New to AI agents? St
 | 004 | **[AI Meeting Action Item Extractor](Day-004-AI-Meeting-Action-Item-Extractor/)** | 🟢 Beginner+ | Structured outputs, Pydantic schemas, validation, graceful fallback |
 | 005 | **[AI Email Reply Assistant](Day-005-AI-Email-Reply-Assistant/)** | 🟢 Beginner+ | System prompts, instruction hierarchy, prompt boundaries, tone control |
 | 006 | **[AI Support Ticket Triage Bot](Day-006-AI-Support-Ticket-Triage-Bot/)** | 🟢 Beginner+ | Classification, routing, JSON Schema, escalation, deterministic fallbacks |
+| 007 | **[AI Prompt Guardrail & Safety Gateway](Day-007-AI-Prompt-Guardrail-Safety-Gateway/)** | 🟡 Intermediate Foundations | Guardrails, prompt injection, PII review, moderation, human-in-the-loop |
 
 ### Current progress
 
-**6 / 100 projects complete** — Foundations phase in progress.
+**7 / 100 projects complete** — Foundations phase in progress.
 
-`██████░░░░░░░░░░░░░░` **6%**
+`███████░░░░░░░░░░░░░` **7%**
 
 ---
 
 ## 🧠 Learning roadmap
 
 **Days 1–10 — Foundations**  
-Prompt engineering, structured outputs, CLI/web interfaces, API basics, validation, and dependable AI application patterns.
+Prompt engineering, structured outputs, CLI/web interfaces, API basics, validation, safety boundaries, and dependable AI application patterns.
 
 **Days 11–25 — Tool-using agents**  
 Function/tool calling, search, external APIs, databases, workflows, and agents that can take useful actions.
