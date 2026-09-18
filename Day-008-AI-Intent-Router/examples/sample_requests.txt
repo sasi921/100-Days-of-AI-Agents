@@ -1,0 +1,5 @@
+Summarize these meeting notes into five bullets.
+Extract the action items and owners from this transcript.
+How does retrieval augmented generation work?
+Draft a friendly reply confirming Tuesday at 2 PM.
+Banana telescope purple.
