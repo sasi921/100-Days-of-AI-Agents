@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-9%2F100-1f6feb?style=for-the-badge" alt="Progress 9/100" />
+  <img src="https://img.shields.io/badge/Progress-10%2F100-1f6feb?style=for-the-badge" alt="Progress 10/100" />
   <img src="https://img.shields.io/badge/Python-AI%20Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python AI Engineering" />
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributions-Welcome-2ea44f?style=for-the-badge" alt="Contributions welcome" /></a>
 </p>
@@ -16,13 +16,13 @@
 
 ## 🔥 Latest build
 
-### Day 009 — AI Calculator Tool Agent
+### Day 010 — AI Multi-Tool Function Calling Agent
 
-The series' first execution-loop agent: it selects a calculator tool, validates and executes a safe arithmetic expression, observes the result, and grounds its answer in tool output.
+The foundations capstone: an agent chooses between multiple narrow tools, constructs arguments, dispatches the selected function, observes the result, and grounds its answer in tool output.
 
-**User → Decide tool → Validate arguments → Execute → Observe → Answer**
+**User → Choose tool → Validate call → Dispatch → Observe → Ground answer**
 
-➡️ **[Explore Day 009](Day-009-AI-Calculator-Tool-Agent/)**
+➡️ **[Explore Day 010](Day-010-AI-Multi-Tool-Function-Calling-Agent/)**
 
 ## ⚡ Start here
 
@@ -45,14 +45,15 @@ python -m venv .venv
 | 007 | **[AI Prompt Guardrail & Safety Gateway](Day-007-AI-Prompt-Guardrail-Safety-Gateway/)** | 🟡 Intermediate Foundations | Guardrails, prompt injection, PII review, moderation |
 | 008 | **[AI Intent Router](Day-008-AI-Intent-Router/)** | 🟡 Intermediate Foundations | Intent classification, confidence thresholds, dispatch, structured routing |
 | 009 | **[AI Calculator Tool Agent](Day-009-AI-Calculator-Tool-Agent/)** | 🟡 Intermediate Foundations | Tool contracts, safe execution, observations, grounded answers |
+| 010 | **[AI Multi-Tool Function Calling Agent](Day-010-AI-Multi-Tool-Function-Calling-Agent/)** | 🟡 Intermediate Foundations | Function calling, tool registry, argument schemas, dispatch, graceful failure |
 
-**Progress: 9 / 100** — Foundations phase in progress.
+**Progress: 10 / 100** — Foundations phase complete. Next: tool-using agents.
 
-`█████████░░░░░░░░░░░` **9%**
+`██████████░░░░░░░░░░` **10%**
 
 ## 🧠 Learning roadmap
 
-**Days 1–10 — Foundations:** Prompt engineering, structured outputs, APIs, validation, safety boundaries, intent routing, tool contracts, and dependable AI application patterns.
+**Days 1–10 — Foundations:** Prompt engineering, structured outputs, APIs, validation, safety boundaries, intent routing, tool contracts, function calling, and dependable AI application patterns. ✅
 
 **Days 11–25 — Tool-using agents:** Function/tool calling, search, external APIs, databases, workflows, and agents that take useful actions.
 
