@@ -1,0 +1,3 @@
+calculate 24 * (8 + 2)
+word count for AI agents can choose and execute tools
+translate this sentence to French
