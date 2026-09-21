@@ -5,9 +5,7 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-10%2F100-1f6feb?style=for-the-badge" alt="Progress 10/100" />
-  <img src="https://img.shields.io/badge/Python-AI%20Engineering-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python AI Engineering" />
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributions-Welcome-2ea44f?style=for-the-badge" alt="Contributions welcome" /></a>
+  <img src="https://img.shields.io/badge/Progress-11%2F100-1f6feb?style=for-the-badge" alt="Progress 11/100" />
 </p>
 
 <h3 align="center">Learn AI engineering by building — one useful project every day.</h3>
@@ -16,13 +14,13 @@
 
 ## 🔥 Latest build
 
-### Day 010 — AI Multi-Tool Function Calling Agent
+### Day 011 — Live Weather Tool Agent
 
-The foundations capstone: an agent chooses between multiple narrow tools, constructs arguments, dispatches the selected function, observes the result, and grounds its answer in tool output.
+The Tool-Using Agents phase begins with a real network tool: geocode a city, retrieve live weather, normalize the observation, and produce a grounded briefing.
 
-**User → Choose tool → Validate call → Dispatch → Observe → Ground answer**
+**City → Geocoding → Weather API → Observation → Grounded briefing**
 
-➡️ **[Explore Day 010](Day-010-AI-Multi-Tool-Function-Calling-Agent/)**
+➡️ **[Explore Day 011](Day-011-Live-Weather-Tool-Agent/)**
 
 ## ⚡ Start here
 
@@ -46,10 +44,11 @@ python -m venv .venv
 | 008 | **[AI Intent Router](Day-008-AI-Intent-Router/)** | 🟡 Intermediate Foundations | Intent classification, confidence thresholds, dispatch, structured routing |
 | 009 | **[AI Calculator Tool Agent](Day-009-AI-Calculator-Tool-Agent/)** | 🟡 Intermediate Foundations | Tool contracts, safe execution, observations, grounded answers |
 | 010 | **[AI Multi-Tool Function Calling Agent](Day-010-AI-Multi-Tool-Function-Calling-Agent/)** | 🟡 Intermediate Foundations | Function calling, tool registry, argument schemas, dispatch, graceful failure |
+| 011 | **[Live Weather Tool Agent](Day-011-Live-Weather-Tool-Agent/)** | 🟡 Intermediate | External API tools, geocoding, normalization, timeouts, grounded responses |
 
-**Progress: 10 / 100** — Foundations phase complete. Next: tool-using agents.
+**Progress: 11 / 100** — Tool-Using Agents phase in progress.
 
-`██████████░░░░░░░░░░` **10%**
+`███████████░░░░░░░░░` **11%**
 
 ## 🧠 Learning roadmap
 
