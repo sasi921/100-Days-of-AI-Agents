@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-11%2F100-1f6feb?style=for-the-badge" alt="Progress 11/100" />
+  <img src="https://img.shields.io/badge/Progress-12%2F100-1f6feb?style=for-the-badge" alt="Progress 12/100" />
 </p>
 
 <h3 align="center">Learn AI engineering by building — one useful project every day.</h3>
@@ -14,13 +14,13 @@
 
 ## 🔥 Latest build
 
-### Day 011 — Live Weather Tool Agent
+### Day 012 — API Workflow Agent
 
-The Tool-Using Agents phase begins with a real network tool: geocode a city, retrieve live weather, normalize the observation, and produce a grounded briefing.
+Turn a real API observation into a multi-step workflow: retrieve tasks, validate records, aggregate status, and choose the next action.
 
-**City → Geocoding → Weather API → Observation → Grounded briefing**
+**User ID → API tool → validation → aggregation → next-action policy → structured result**
 
-➡️ **[Explore Day 011](Day-011-Live-Weather-Tool-Agent/)**
+➡️ **[Explore Day 012](Day-012-API-Workflow-Agent/)**
 
 ## ⚡ Start here
 
@@ -45,10 +45,11 @@ python -m venv .venv
 | 009 | **[AI Calculator Tool Agent](Day-009-AI-Calculator-Tool-Agent/)** | 🟡 Intermediate Foundations | Tool contracts, safe execution, observations, grounded answers |
 | 010 | **[AI Multi-Tool Function Calling Agent](Day-010-AI-Multi-Tool-Function-Calling-Agent/)** | 🟡 Intermediate Foundations | Function calling, tool registry, argument schemas, dispatch, graceful failure |
 | 011 | **[Live Weather Tool Agent](Day-011-Live-Weather-Tool-Agent/)** | 🟡 Intermediate | External API tools, geocoding, normalization, timeouts, grounded responses |
+| 012 | **[API Workflow Agent](Day-012-API-Workflow-Agent/)** | 🟡 Intermediate | Multi-step workflows, API adapters, validation, aggregation, state, error propagation |
 
-**Progress: 11 / 100** — Tool-Using Agents phase in progress.
+**Progress: 12 / 100** — Tool-Using Agents phase in progress.
 
-`███████████░░░░░░░░░` **11%**
+`████████████░░░░░░░░` **12%**
 
 ## 🧠 Learning roadmap
 
