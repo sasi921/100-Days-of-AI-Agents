@@ -1,0 +1,3 @@
+create task Review the production deployment
+add a task to prepare the sprint demo
+please create a task for verify API monitoring alerts

@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-12%2F100-1f6feb?style=for-the-badge" alt="Progress 12/100" />
+  <img src="https://img.shields.io/badge/Progress-13%2F100-1f6feb?style=for-the-badge" alt="Progress 13/100" />
 </p>
 
 <h3 align="center">Learn AI engineering by building — one useful project every day.</h3>
@@ -14,13 +14,13 @@
 
 ## 🔥 Latest build
 
-### Day 012 — API Workflow Agent
+### Day 013 — Approval-Gated Action Agent
 
-Turn a real API observation into a multi-step workflow: retrieve tasks, validate records, aggregate status, and choose the next action.
+Separate reasoning from authorization: propose a state-changing action, validate it, require explicit human approval, then execute or deny with an auditable result.
 
-**User ID → API tool → validation → aggregation → next-action policy → structured result**
+**Request → Action proposal → Validation → Approval gate → Execute or deny → Record**
 
-➡️ **[Explore Day 012](Day-012-API-Workflow-Agent/)**
+➡️ **[Explore Day 013](Day-013-Approval-Gated-Action-Agent/)**
 
 ## ⚡ Start here
 
@@ -46,16 +46,17 @@ python -m venv .venv
 | 010 | **[AI Multi-Tool Function Calling Agent](Day-010-AI-Multi-Tool-Function-Calling-Agent/)** | 🟡 Intermediate Foundations | Function calling, tool registry, argument schemas, dispatch, graceful failure |
 | 011 | **[Live Weather Tool Agent](Day-011-Live-Weather-Tool-Agent/)** | 🟡 Intermediate | External API tools, geocoding, normalization, timeouts, grounded responses |
 | 012 | **[API Workflow Agent](Day-012-API-Workflow-Agent/)** | 🟡 Intermediate | Multi-step workflows, API adapters, validation, aggregation, state, error propagation |
+| 013 | **[Approval-Gated Action Agent](Day-013-Approval-Gated-Action-Agent/)** | 🟡 Intermediate | Human-in-the-loop, approval gates, least privilege, state-changing tools, auditability |
 
-**Progress: 12 / 100** — Tool-Using Agents phase in progress.
+**Progress: 13 / 100** — Tool-Using Agents phase in progress.
 
-`████████████░░░░░░░░` **12%**
+`█████████████░░░░░░░` **13%**
 
 ## 🧠 Learning roadmap
 
 **Days 1–10 — Foundations:** Prompt engineering, structured outputs, APIs, validation, safety boundaries, intent routing, tool contracts, function calling, and dependable AI application patterns. ✅
 
-**Days 11–25 — Tool-using agents:** Function/tool calling, search, external APIs, databases, workflows, and agents that take useful actions.
+**Days 11–25 — Tool-using agents:** Function/tool calling, search, external APIs, databases, workflows, approvals, and agents that take useful actions.
 
 **Days 26–45 — RAG:** Embeddings, chunking, retrieval, vector databases, document assistants, citations, retrieval evaluation.
 
