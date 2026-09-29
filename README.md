@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-13%2F100-1f6feb?style=for-the-badge" alt="Progress 13/100" />
+  <img src="https://img.shields.io/badge/Progress-14%2F100-1f6feb?style=for-the-badge" alt="Progress 14/100" />
 </p>
 
 <h3 align="center">Learn AI engineering by building — one useful project every day.</h3>
@@ -14,13 +14,13 @@
 
 ## 🔥 Latest build
 
-### Day 013 — Approval-Gated Action Agent
+### Day 014 — SQL Data Analyst Agent
 
-Separate reasoning from authorization: propose a state-changing action, validate it, require explicit human approval, then execute or deny with an auditable result.
+Turn natural-language questions into guarded, read-only SQL, execute them against SQLite, and return structured observations.
 
-**Request → Action proposal → Validation → Approval gate → Execute or deny → Record**
+**Question → SQL planner → Read-only validator → SQLite tool → Structured result**
 
-➡️ **[Explore Day 013](Day-013-Approval-Gated-Action-Agent/)**
+➡️ **[Explore Day 014](Day-014-SQL-Data-Analyst-Agent/)**
 
 ## ⚡ Start here
 
@@ -47,10 +47,11 @@ python -m venv .venv
 | 011 | **[Live Weather Tool Agent](Day-011-Live-Weather-Tool-Agent/)** | 🟡 Intermediate | External API tools, geocoding, normalization, timeouts, grounded responses |
 | 012 | **[API Workflow Agent](Day-012-API-Workflow-Agent/)** | 🟡 Intermediate | Multi-step workflows, API adapters, validation, aggregation, state, error propagation |
 | 013 | **[Approval-Gated Action Agent](Day-013-Approval-Gated-Action-Agent/)** | 🟡 Intermediate | Human-in-the-loop, approval gates, least privilege, state-changing tools, auditability |
+| 014 | **[SQL Data Analyst Agent](Day-014-SQL-Data-Analyst-Agent/)** | 🟡 Intermediate | Natural-language-to-SQL, database tools, read-only guardrails, schema grounding |
 
-**Progress: 13 / 100** — Tool-Using Agents phase in progress.
+**Progress: 14 / 100** — Tool-Using Agents phase in progress.
 
-`█████████████░░░░░░░` **13%**
+`██████████████░░░░░░` **14%**
 
 ## 🧠 Learning roadmap
 
