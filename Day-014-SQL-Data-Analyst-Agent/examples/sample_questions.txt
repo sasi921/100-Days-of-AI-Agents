@@ -1,0 +1,4 @@
+What is total revenue?
+Show sales by region.
+Who are the top customers by revenue?
+Show recent orders.
