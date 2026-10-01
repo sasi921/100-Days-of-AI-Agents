@@ -1,0 +1,4 @@
+What does Atlas help support teams do?
+How much did triage time change?
+What action requires human approval?
+What is planned for the next release?
