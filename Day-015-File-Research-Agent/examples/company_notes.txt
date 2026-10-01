@@ -1,0 +1,5 @@
+Acme AI launched the Atlas assistant in March 2026.
+Atlas helps support teams summarize tickets and suggest next actions.
+The pilot reduced average triage time from 12 minutes to 7 minutes.
+The company requires human approval before Atlas sends customer-facing messages.
+Acme AI plans to add multilingual support in the next release.
