@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-14%2F100-1f6feb?style=for-the-badge" alt="Progress 14/100" />
+  <img src="https://img.shields.io/badge/Progress-15%2F100-1f6feb?style=for-the-badge" alt="Progress 15/100" />
 </p>
 
 <h3 align="center">Learn AI engineering by building — one useful project every day.</h3>
@@ -14,13 +14,13 @@
 
 ## 🔥 Latest build
 
-### Day 014 — SQL Data Analyst Agent
+### Day 015 — File Research Agent
 
-Turn natural-language questions into guarded, read-only SQL, execute them against SQLite, and return structured observations.
+Retrieve evidence from a local file before answering, return source-line citations, and explicitly handle insufficient evidence.
 
-**Question → SQL planner → Read-only validator → SQLite tool → Structured result**
+**Question → File search → Ranked evidence → Grounded answer → Citations**
 
-➡️ **[Explore Day 014](Day-014-SQL-Data-Analyst-Agent/)**
+➡️ **[Explore Day 015](Day-015-File-Research-Agent/)**
 
 ## ⚡ Start here
 
@@ -48,10 +48,11 @@ python -m venv .venv
 | 012 | **[API Workflow Agent](Day-012-API-Workflow-Agent/)** | 🟡 Intermediate | Multi-step workflows, API adapters, validation, aggregation, state, error propagation |
 | 013 | **[Approval-Gated Action Agent](Day-013-Approval-Gated-Action-Agent/)** | 🟡 Intermediate | Human-in-the-loop, approval gates, least privilege, state-changing tools, auditability |
 | 014 | **[SQL Data Analyst Agent](Day-014-SQL-Data-Analyst-Agent/)** | 🟡 Intermediate | Natural-language-to-SQL, database tools, read-only guardrails, schema grounding |
+| 015 | **[File Research Agent](Day-015-File-Research-Agent/)** | 🟡 Intermediate | Retrieval, evidence grounding, source-line citations, insufficient-evidence handling |
 
-**Progress: 14 / 100** — Tool-Using Agents phase in progress.
+**Progress: 15 / 100** — Tool-Using Agents phase in progress.
 
-`██████████████░░░░░░` **14%**
+`███████████████░░░░░` **15%**
 
 ## 🧠 Learning roadmap
 
