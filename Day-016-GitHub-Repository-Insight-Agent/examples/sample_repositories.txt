@@ -1,0 +1,4 @@
+openai/openai-python
+pydantic/pydantic
+psf/requests
+fastapi/fastapi
