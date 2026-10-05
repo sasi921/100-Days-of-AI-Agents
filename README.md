@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/stargazers"><img src="https://img.shields.io/github/stars/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Stars" alt="GitHub stars" /></a>
   <a href="https://github.com/sasi921/100-Days-of-AI-Agents/network/members"><img src="https://img.shields.io/github/forks/sasi921/100-Days-of-AI-Agents?style=for-the-badge&logo=github&label=Forks" alt="GitHub forks" /></a>
-  <img src="https://img.shields.io/badge/Progress-15%2F100-1f6feb?style=for-the-badge" alt="Progress 15/100" />
+  <img src="https://img.shields.io/badge/Progress-16%2F100-1f6feb?style=for-the-badge" alt="Progress 16/100" />
 </p>
 
 <h3 align="center">Learn AI engineering by building — one useful project every day.</h3>
@@ -14,13 +14,13 @@
 
 ## 🔥 Latest build
 
-### Day 015 — File Research Agent
+### Day 016 — GitHub Repository Insight Agent
 
-Retrieve evidence from a local file before answering, return source-line citations, and explicitly handle insufficient evidence.
+Coordinate multiple GitHub API tools to inspect repository metadata, languages, issues, and turn those observations into a structured health report.
 
-**Question → File search → Ranked evidence → Grounded answer → Citations**
+**Repository → Metadata API → Languages API → Issues API → Normalized snapshot → Insight**
 
-➡️ **[Explore Day 015](Day-015-File-Research-Agent/)**
+➡️ **[Explore Day 016](Day-016-GitHub-Repository-Insight-Agent/)**
 
 ## ⚡ Start here
 
@@ -49,10 +49,11 @@ python -m venv .venv
 | 013 | **[Approval-Gated Action Agent](Day-013-Approval-Gated-Action-Agent/)** | 🟡 Intermediate | Human-in-the-loop, approval gates, least privilege, state-changing tools, auditability |
 | 014 | **[SQL Data Analyst Agent](Day-014-SQL-Data-Analyst-Agent/)** | 🟡 Intermediate | Natural-language-to-SQL, database tools, read-only guardrails, schema grounding |
 | 015 | **[File Research Agent](Day-015-File-Research-Agent/)** | 🟡 Intermediate | Retrieval, evidence grounding, source-line citations, insufficient-evidence handling |
+| 016 | **[GitHub Repository Insight Agent](Day-016-GitHub-Repository-Insight-Agent/)** | 🟡 Intermediate | Multi-tool API orchestration, normalization, optional auth, repository health signals |
 
-**Progress: 15 / 100** — Tool-Using Agents phase in progress.
+**Progress: 16 / 100** — Tool-Using Agents phase in progress.
 
-`███████████████░░░░░` **15%**
+`████████████████░░░░` **16%**
 
 ## 🧠 Learning roadmap
 
